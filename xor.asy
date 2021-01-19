@@ -4,7 +4,6 @@ LINE Normal -12 -32 -48 -32
 LINE Normal -13 32 -48 32
 LINE Normal 0 -45 0 -80
 LINE Normal 32 0 80 0
-CIRCLE Normal 41 7 32 -8
 ARC Normal -64 -48 32 48 32 0 -16 -49
 ARC Normal -64 -48 32 48 -16 48 32 0
 ARC Normal -89 -81 -9 79 -13 32 -11 -29
