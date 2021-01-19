@@ -8,6 +8,7 @@ CIRCLE Normal 41 7 32 -8
 ARC Normal -64 -48 32 48 32 0 -16 -49
 ARC Normal -64 -48 32 48 -16 48 32 0
 ARC Normal -89 -81 -9 79 -13 32 -11 -29
+WINDOW 0 47 -65 Left 0
 PIN 0 -80 RIGHT 8
 PINATTR PinName Vdd
 PINATTR SpiceOrder 1
