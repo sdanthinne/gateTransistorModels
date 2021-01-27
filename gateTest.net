@@ -5,13 +5,14 @@ XX3 N001 Vnor N002 N003 nor
 XX4 N001 N002 N003 Vnand nand
 XX5 N001 N002 N003 Vand and
 Vdd N001 0 5
-V2 N002 0 PULSE(0 5 0 10n 10n 0.5m 1m)
-V3 N003 0 PULSE(0 5 0 10n 10n 1m 2m)
+V§A N002 0 PULSE(0 5 0 10n 10n 0.5m 1m)
+V§B N003 0 PULSE(0 5 0 10n 10n 1m 2m)
+XX7 N001 Vxnor N002 N003 xnor
 
 * block symbol definitions
 .subckt xor Vdd Vout A B
-A1 A 0 0 0 0 N001 0 0 BUF
-A2 B 0 0 0 0 N002 0 0 BUF
+A1 A 0 0 0 0 N001 0 0 BUF td=10n Vhigh=5
+A2 B 0 0 0 0 N002 0 0 BUF td=10n Vhigh=5
 M1 N003 A Vdd Vdd CMOSP_0.5
 M2 N004 B Vdd Vdd CMOSP_0.5
 M3 Vout N002 N003 N003 CMOSP_0.5
@@ -28,7 +29,7 @@ M1 P001 A Vdd Vdd CMOSP_0.5
 M2 N001 B P001 P001 CMOSP_0.5
 M3 N001 A 0 0 CMOSN_0.5
 M4 N001 B 0 0 CMOSN_0.5
-A1 N001 0 0 0 0 Vout 0 0 BUF
+A1 N001 0 0 0 0 Vout 0 0 BUF td=10n Vhigh=5
 .lib DetailedModel.mod
 .ends or
 
@@ -56,6 +57,21 @@ M4 N001 A Vdd Vdd CMOSP_0.5
 A1 N001 0 0 0 0 Vout 0 0 BUF
 .lib DetailedModel.mod
 .ends and
+
+.subckt xnor Vdd Vout A B
+A1 A 0 0 0 0 N001 0 0 BUF td=10n Vhigh=5
+A2 B 0 0 0 0 N002 0 0 BUF td=10n Vhigh=5
+M1 N003 A Vdd Vdd CMOSP_0.5
+M2 N004 B Vdd Vdd CMOSP_0.5
+M3 N005 N002 N003 N003 CMOSP_0.5
+M4 N005 N001 N004 N004 CMOSP_0.5
+M5 N005 A N006 N006 CMOSN_0.5
+M6 N005 N001 N007 N007 CMOSN_0.5
+M7 N006 B 0 0 CMOSN_0.5
+M8 N007 N002 0 0 CMOSN_0.5
+A3 N005 0 0 0 0 Vout 0 0 BUF td=10n Vhigh=5
+.lib DetailedModel.mod
+.ends xnor
 
 .model NMOS NMOS
 .model PMOS PMOS
