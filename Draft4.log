@@ -1,0 +1,4 @@
+Circuit: * Z:\home\sdanthinne\Documents\307\gateTransistorModels\Draft4.asc
+
+Fatal Error: Port(pin) count mismatch between the definition of subcircuit "s_half_adder" and instance: "xx1"
+The instance has more connection terminals than the definition.

@@ -1,0 +1,236 @@
+Circuit: * Z:\home\sdanthinne\Documents\307\gateTransistorModels\adder_test.asc
+
+Warning: Multiple definitions of model "cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x1:x4:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x1:x4:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x1:x3:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x1:x3:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x1:x2:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x1:x2:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x1:x1:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x1:x1:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x1:x6:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x1:x6:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x4:x4:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x4:x4:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x4:x3:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x4:x3:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x4:x2:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x4:x2:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x4:x1:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x4:x1:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x4:x6:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x4:x6:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x3:x4:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x3:x4:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x3:x3:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x3:x3:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x3:x2:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x3:x2:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x3:x1:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x3:x1:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x3:x6:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x3:x6:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x2:x4:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x2:x4:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x2:x3:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x2:x3:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x2:x2:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x2:x2:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x2:x1:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x2:x1:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x2:x6:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x2:x6:cd4007" Type: Mos1
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+WARNING: Node NC_02 is floating.
+WARNING: Node NC_01 is floating.
+
+WARNING: Less than two connections to node A[0].  This node is used by V0.
+WARNING: Less than two connections to node A[1].  This node is used by V1.
+WARNING: Less than two connections to node A[2].  This node is used by V2.
+WARNING: Less than two connections to node A[3].  This node is used by V3.
+WARNING: Less than two connections to node B[0].  This node is used by V4.
+WARNING: Less than two connections to node B[1].  This node is used by V5.
+WARNING: Less than two connections to node B[2].  This node is used by V6.
+WARNING: Less than two connections to node B[3].  This node is used by V7.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 0.000147 to 0.000147
+
+Date: Thu Jan 28 15:47:54 2021
+Total elapsed time: 3.144 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 27210
+traniter = 27170
+tranpoints = 13591
+accept = 11090
+rejected = 2502
+matrix size = 124
+fillins = 122
+solver = Normal
+Thread vector: 95.4/32.6[12] 41.1/15.0[12] 8.8/4.1[12] 0.5/1.9[1]  2592/500
+Matrix Compiler1: 22.38 KB object code size  4.4/2.7/[2.6]
+Matrix Compiler2: 15.57 KB object code size  1.8/1.8/[1.1]
+

@@ -1,0 +1,51 @@
+* Z:\home\sdanthinne\Documents\307\gateTransistorModels\adder_test.asc
+XX1 N001 NC_01 NC_01 NC_01 NC_01 NC_02 NC_02 NC_02 NC_02 NC_03 NC_03 NC_03 NC_03 NC_03 s_4bit_adder
+Vdd N001 0 5
+
+* block symbol definitions
+.subckt s_4bit_adder Vdd B[0] B[1] B[2] B[3] A[0] A[1] A[2] A[3] s[0] s[1] s[2] s[3] s[4]
+XX2 Vdd A[1] B[1] N001 N002 s[1] s_full_adder
+XX3 Vdd A[2] B[2] N002 N003 s[2] s_full_adder
+XX4 Vdd A[3] B[3] N003 s[4] s[3] s_full_adder
+XX1 Vdd A[0] B[0] 0 N001 s[0] s_full_adder
+.ends s_4bit_adder
+
+.subckt s_full_adder Vdd A B cin cout s
+XX6 Vdd N001 A B s_xor
+XX1 Vdd s N001 cin s_xor
+XX2 Vdd cin N001 N002 s_and
+XX3 Vdd B A N003 s_and
+XX4 Vdd cout N002 N003 s_xor
+.ends s_full_adder
+
+.subckt s_xor Vdd Vout A B
+A1 A 0 0 0 0 N001 0 0 BUF td=1p Vhigh=5
+A2 B 0 0 0 0 N002 0 0 BUF td=1p Vhigh=5
+M1 N003 A Vdd Vdd CMOSP_0.5
+M2 N004 B Vdd Vdd CMOSP_0.5
+M3 Vout N002 N003 N003 CMOSP_0.5
+M4 Vout N001 N004 N004 CMOSP_0.5
+M5 Vout A N005 N005 CMOSN_0.5
+M6 Vout N001 N006 N006 CMOSN_0.5
+M7 N005 B 0 0 CMOSN_0.5
+M8 N006 N002 0 0 CMOSN_0.5
+.lib DetailedModel.mod
+.ends s_xor
+
+.subckt s_and Vdd A B Vout
+M1 N001 B N002 N002 CMOSN_0.5
+M2 N002 A 0 0 CMOSN_0.5
+M3 N001 B Vdd Vdd CMOSP_0.5
+M4 N001 A Vdd Vdd CMOSP_0.5
+A1 N001 0 0 0 0 Vout 0 0 BUF td=1p Vhigh=5
+.lib DetailedModel.mod
+.ends s_and
+
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\sdanthinne\My Documents\LTspiceXVII\lib\cmp\standard.mos
+.lib DetailedModel.mod
+.inc fourSource.txt
+.tran 256u
+.backanno
+.end
