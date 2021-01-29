@@ -2,6 +2,16 @@ Circuit: * Z:\home\sdanthinne\Documents\307\gateTransistorModels\adder_test.asc
 
 Warning: Multiple definitions of model "cd4007ube" Type: Mos1
 Warning: Multiple definitions of model "cd4007" Type: Mos1
+Warning: Multiple definitions of model "x2:x4:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x2:x4:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x2:x3:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x2:x3:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x2:x2:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x2:x2:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x2:x1:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x2:x1:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x2:x6:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x2:x6:cd4007" Type: Mos1
 Warning: Multiple definitions of model "x1:x1:x4:cd4007ube" Type: Mos1
 Warning: Multiple definitions of model "x1:x1:x4:cd4007" Type: Mos1
 Warning: Multiple definitions of model "x1:x1:x3:cd4007ube" Type: Mos1
@@ -122,17 +132,55 @@ Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
-WARNING: Node NC_02 is floating.
-WARNING: Node NC_01 is floating.
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+WARNING: Node A[1] is floating.
+WARNING: Node B[1] is floating.
+WARNING: Node A[2] is floating.
+WARNING: Node B[2] is floating.
+WARNING: Node A[3] is floating.
+WARNING: Node B[3] is floating.
+WARNING: Node A[0] is floating.
+WARNING: Node B[0] is floating.
 
-WARNING: Less than two connections to node A[0].  This node is used by V0.
-WARNING: Less than two connections to node A[1].  This node is used by V1.
-WARNING: Less than two connections to node A[2].  This node is used by V2.
-WARNING: Less than two connections to node A[3].  This node is used by V3.
-WARNING: Less than two connections to node B[0].  This node is used by V4.
-WARNING: Less than two connections to node B[1].  This node is used by V5.
-WARNING: Less than two connections to node B[2].  This node is used by V6.
-WARNING: Less than two connections to node B[3].  This node is used by V7.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
@@ -214,23 +262,64 @@ Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Direct Newton iteration for .op point succeeded.
-Heightened Def Con from 0.000147 to 0.000147
+Heightened Def Con from 2.00026e-006 to 2.0004e-006
+Heightened Def Con from 4.00015e-006 to 4.00021e-006
+Heightened Def Con from 4.008e-006 to 4.00815e-006
+Heightened Def Con from 4.00918e-006 to 4.0102e-006
+Heightened Def Con from 8.00033e-006 to 8.00048e-006
+Heightened Def Con from 8.00187e-006 to 8.00288e-006
+Heightened Def Con from 1.00001e-005 to 1.00002e-005
+Heightened Def Con from 1.20005e-005 to 1.20015e-005
+Heightened Def Con from 1.20022e-005 to 1.20023e-005
+Heightened Def Con from 1.40002e-005 to 1.40002e-005
+Heightened Def Con from 1.40003e-005 to 1.40004e-005
+Heightened Def Con from 1.80003e-005 to 1.80004e-005
+Heightened Def Con from 2.00002e-005 to 2.00002e-005
+Heightened Def Con from 2.00092e-005 to 2.00102e-005
+Heightened Def Con from 2.20001e-005 to 2.20002e-005
+Heightened Def Con from 2.40002e-005 to 2.40002e-005
+Heightened Def Con from 2.40003e-005 to 2.40005e-005
+Heightened Def Con from 2.40018e-005 to 2.40029e-005
+Heightened Def Con from 2.60001e-005 to 2.60002e-005
+Heightened Def Con from 2.80003e-005 to 2.80005e-005
+Heightened Def Con from 2.80007e-005 to 2.80018e-005
+Heightened Def Con from 2.80022e-005 to 2.80023e-005
+Heightened Def Con from 3.00002e-005 to 3.00002e-005
+Heightened Def Con from 3.00003e-005 to 3.00004e-005
+Heightened Def Con from 3.60002e-005 to 3.60002e-005
+Heightened Def Con from 3.60004e-005 to 3.60013e-005
+Heightened Def Con from 3.60075e-005 to 3.60088e-005
+Heightened Def Con from 4.00002e-005 to 4.00002e-005
+Heightened Def Con from 4.40013e-005 +++++++++++++++++++++++to 4.40025e-005
+Heightened Def Con from 5.20002e-005 to 5.20002e-005
+Heightened Def Con from 5.20076e-005 to 5.20088e-005
+Heightened Def Con from 5.6001e-005 to 5.6009e-005
+Heightened Def Con from 6.00003e-005 to 6.0001e-005
+Heightened Def Con from 6.00012e-005 +++++++++++++++++++++++to 6.00025e-005
+Heightened Def Con from 6.40077e-005 to 6.40089e-005
+Heightened Def Con from 7.20015e-005 +++++++++++++++++++++++to 7.20027e-005
+Heightened Def Con from 8.00077e-005 to 8.00089e-005
+Heightened Def Con from 8.80015e-005 +++++++++++++++++++++++to 8.80027e-005
+Heightened Def Con from 9.60077e-005 to 9.60089e-005
+Heightened Def Con from 0.000104001 +++++++++++++++++++++++to 0.000104003
+Heightened Def Con from 0.000112008 to 0.000112009
+Heightened Def Con from 0.000120001 +++++++++++++++++++++++to 0.000120003
 
-Date: Thu Jan 28 15:47:54 2021
-Total elapsed time: 3.144 seconds.
+Date: Thu Jan 28 19:28:25 2021
+Total elapsed time: 5.430 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 27210
-traniter = 27170
-tranpoints = 13591
-accept = 11090
-rejected = 2502
-matrix size = 124
-fillins = 122
+totiter = 63923
+traniter = 63879
+tranpoints = 12962
+accept = 8519
+rejected = 4623
+matrix size = 151
+fillins = 134
 solver = Normal
-Thread vector: 95.4/32.6[12] 41.1/15.0[12] 8.8/4.1[12] 0.5/1.9[1]  2592/500
-Matrix Compiler1: 22.38 KB object code size  4.4/2.7/[2.6]
-Matrix Compiler2: 15.57 KB object code size  1.8/1.8/[1.1]
+Thread vector: 108.2/34.5[12] 22.3/9.4[12] 4.8/2.7[11] 0.5/0.8[1]  2592/500
+Matrix Compiler1: 25.78 KB object code size  5.2/2.4/[1.7]
+Matrix Compiler2: 19.38 KB object code size  2.4/2.4/[1.0]
 
