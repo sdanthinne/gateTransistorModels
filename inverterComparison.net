@@ -1,0 +1,26 @@
+* Z:\home\sdanthinne\Documents\307\computer\gateTransistorModels\inverterComparison.asc
+M1 VoutRTL N002 0 0 CMOSN_0.5
+M2 VoutCMOS N002 N001 N001 CMOSP_0.5
+R1 N001 VoutRTL 7949.49
+V1 N002 0
+Vdd N001 0 5
+M3 VoutCMOS N002 0 0 CMOSN_0.5
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\sdanthinne\My Documents\LTspiceXVII\lib\cmp\standard.mos
+.dc V1 0 5
+.model nmos_cust CMOSN_0.5
+.model pmos_cust CMOSP_0.5
+.meas VilCMOS FIND V1 WHEN d(v(voutcmos))=-1 CROSS=1
+.meas Vmcmos FIND V1 WHEN V1=v(voutcmos)
+.meas Vmrtl FIND V1 WHEN V1=v(voutrtl)
+.meas VohCMOS FIND v(voutcmos) WHEN d(v(voutcmos))=-1 CROSS=1
+.meas VihCMOS FIND V1 WHEN d(v(voutcmos))=-1 CROSS=2
+.meas VolCMOS FIND v(voutcmos) WHEN d(v(voutcmos))=-1 CROSS=2
+.meas VilRTL FIND V1 WHEN d(v(voutrtl))=-1 CROSS=1
+.meas VohRTL FIND v(voutrtl) WHEN d(v(voutrtl))=-1 CROSS=1
+.meas VihRTL FIND V1 WHEN d(v(voutRTL))=-1 CROSS=2
+.meas VolRTL FIND v(voutrtl) WHEN d(v(voutrtl))=-1 CROSS=2
+.lib DetailedModel.mod
+.backanno
+.end

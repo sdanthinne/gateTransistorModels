@@ -1,26 +1,38 @@
 Circuit: * Z:\home\sdanthinne\Documents\307\computer\gateTransistorModels\inverterComparison.asc
 
+Warning: Multiple definitions of model "cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "cd4007" Type: Mos1
+Unknown model type "cmosp_0.5" -- ignored
+Unknown model type "cmosn_0.5" -- ignored
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
 V1: Missing value, assumed 0V @ DC
 
-vilcmos: v1=3.09551 at 3.09551
-vmcmos: v1=3.13485 at 3.13485
-vmrtl: v1=3.54104 at 3.54104
-vohcmos: v(voutcmos)=5.96392 at 3.09551
-vihcmos: v1=3.16813 at 3.16813
-volcmos: v(voutcmos)=0.0398105 at 3.16813
-vilrtl: v1=3.0599 at 3.0599
-vohrtl: v(voutrtl)=5.96985 at 3.0599
-vihrtl: v1=3.91769 at 3.91769
-volrtl: v(voutrtl)=0.48665 at 3.91769
+vilcmos: v1=1.38956 at 1.38956
+vmcmos: v1=1.89049 at 1.89049
+vmrtl: v1=3.27903 at 3.27903
+vohcmos: v(voutcmos)=4.70761 at 1.38956
+vihcmos: v1=2.09485 at 2.09485
+volcmos: v(voutcmos)=0.415053 at 2.09485
+vilrtl: v1=2.67961 at 2.67961
+vohrtl: v(voutrtl)=3.94431 at 2.67961
+vihrtl: v1=4.10014 at 4.10014
+volrtl: v(voutrtl)=2.26606 at 4.10014
 
 
-Date: Thu Jan 21 09:56:25 2021
-Total elapsed time: 0.188 seconds.
+Date: Wed Jan 27 16:36:06 2021
+Total elapsed time: 0.100 seconds.
 
 tnom = 27
 temp = 27
 method = trap
-totiter = 2048
+totiter = 2023
 traniter = 0
 tranpoints = 0
 accept = 0
@@ -28,6 +40,6 @@ rejected = 0
 matrix size = 6
 fillins = 0
 solver = Normal
-Matrix Compiler1: 200 bytes object code size  0.2/0.1/[0.1]
-Matrix Compiler2: 436 bytes object code size  0.2/0.2/[0.1]
+Matrix Compiler1: 200 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 436 bytes object code size  0.1/0.1/[0.1]
 
