@@ -2,324 +2,290 @@ Circuit: * Z:\home\sdanthinne\Documents\307\gateTransistorModels\adder_test.asc
 
 Warning: Multiple definitions of model "cd4007ube" Type: Mos1
 Warning: Multiple definitions of model "cd4007" Type: Mos1
-Warning: Multiple definitions of model "x2:x4:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x2:x4:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x2:x3:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x2:x3:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x2:x2:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x2:x2:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x2:x1:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x2:x1:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x2:x6:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x2:x6:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x1:x4:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x1:x4:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x1:x3:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x1:x3:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x1:x2:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x1:x2:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x1:x1:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x1:x1:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x1:x6:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x1:x6:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x4:x4:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x4:x4:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x4:x3:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x4:x3:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x4:x2:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x4:x2:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x4:x1:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x4:x1:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x4:x6:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x4:x6:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x3:x4:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x3:x4:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x3:x3:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x3:x3:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x3:x2:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x3:x2:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x3:x1:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x3:x1:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x3:x6:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x3:x6:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x2:x4:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x2:x4:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x2:x3:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x2:x3:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x2:x2:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x2:x2:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x2:x1:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x2:x1:cd4007" Type: Mos1
-Warning: Multiple definitions of model "x1:x2:x6:cd4007ube" Type: Mos1
-Warning: Multiple definitions of model "x1:x2:x6:cd4007" Type: Mos1
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-Ignoring BSIM parameter XL
-Ignoring BSIM parameter XW
-WARNING: Node A[1] is floating.
-WARNING: Node B[1] is floating.
-WARNING: Node A[2] is floating.
-WARNING: Node B[2] is floating.
-WARNING: Node A[3] is floating.
-WARNING: Node B[3] is floating.
-WARNING: Node A[0] is floating.
-WARNING: Node B[0] is floating.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
 
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Warning: Pd = 0 is less than W.
-Warning: Ps = 0 is less than W.
-Direct Newton iteration for .op point succeeded.
-Heightened Def Con from 2.00026e-006 to 2.0004e-006
-Heightened Def Con from 4.00015e-006 to 4.00021e-006
-Heightened Def Con from 4.008e-006 to 4.00815e-006
-Heightened Def Con from 4.00918e-006 to 4.0102e-006
-Heightened Def Con from 8.00033e-006 to 8.00048e-006
-Heightened Def Con from 8.00187e-006 to 8.00288e-006
-Heightened Def Con from 1.00001e-005 to 1.00002e-005
-Heightened Def Con from 1.20005e-005 to 1.20015e-005
-Heightened Def Con from 1.20022e-005 to 1.20023e-005
-Heightened Def Con from 1.40002e-005 to 1.40002e-005
-Heightened Def Con from 1.40003e-005 to 1.40004e-005
-Heightened Def Con from 1.80003e-005 to 1.80004e-005
-Heightened Def Con from 2.00002e-005 to 2.00002e-005
-Heightened Def Con from 2.00092e-005 to 2.00102e-005
-Heightened Def Con from 2.20001e-005 to 2.20002e-005
-Heightened Def Con from 2.40002e-005 to 2.40002e-005
-Heightened Def Con from 2.40003e-005 to 2.40005e-005
-Heightened Def Con from 2.40018e-005 to 2.40029e-005
-Heightened Def Con from 2.60001e-005 to 2.60002e-005
-Heightened Def Con from 2.80003e-005 to 2.80005e-005
-Heightened Def Con from 2.80007e-005 to 2.80018e-005
-Heightened Def Con from 2.80022e-005 to 2.80023e-005
-Heightened Def Con from 3.00002e-005 to 3.00002e-005
-Heightened Def Con from 3.00003e-005 to 3.00004e-005
-Heightened Def Con from 3.60002e-005 to 3.60002e-005
-Heightened Def Con from 3.60004e-005 to 3.60013e-005
-Heightened Def Con from 3.60075e-005 to 3.60088e-005
-Heightened Def Con from 4.00002e-005 to 4.00002e-005
-Heightened Def Con from 4.40013e-005 +++++++++++++++++++++++to 4.40025e-005
-Heightened Def Con from 5.20002e-005 to 5.20002e-005
-Heightened Def Con from 5.20076e-005 to 5.20088e-005
-Heightened Def Con from 5.6001e-005 to 5.6009e-005
-Heightened Def Con from 6.00003e-005 to 6.0001e-005
-Heightened Def Con from 6.00012e-005 +++++++++++++++++++++++to 6.00025e-005
-Heightened Def Con from 6.40077e-005 to 6.40089e-005
-Heightened Def Con from 7.20015e-005 +++++++++++++++++++++++to 7.20027e-005
-Heightened Def Con from 8.00077e-005 to 8.00089e-005
-Heightened Def Con from 8.80015e-005 +++++++++++++++++++++++to 8.80027e-005
-Heightened Def Con from 9.60077e-005 to 9.60089e-005
-Heightened Def Con from 0.000104001 +++++++++++++++++++++++to 0.000104003
-Heightened Def Con from 0.000112008 to 0.000112009
-Heightened Def Con from 0.000120001 +++++++++++++++++++++++to 0.000120003
+Heightened Def Con from 1.00002e-006 to 1.00077e-006
+Heightened Def Con from 2.00002e-006 to 2.00006e-006
+Heightened Def Con from 3.00002e-006 to 3.00115e-006
+Heightened Def Con from 4.00002e-006 to 4.00006e-006
+Heightened Def Con from 5.00002e-006 to 5.00077e-006
+Heightened Def Con from 6.00002e-006 to 6.00006e-006
+Heightened Def Con from 7.00002e-006 to 7.00115e-006
+Heightened Def Con from 8.00002e-006 to 8.0001e-006
+Heightened Def Con from 9.00002e-006 to 9.00077e-006
+Heightened Def Con from 1e-005 to 1.00001e-005
+Heightened Def Con from 1.1e-005 to 1.10008e-005
+Heightened Def Con from 1.2e-005 to 1.20001e-005
+Heightened Def Con from 1.3e-005 to 1.3e-005
+Heightened Def Con from 1.4e-005 to 1.4e-005
+Heightened Def Con from 1.5e-005 to 1.50008e-005
+Heightened Def Con from 1.7e-005 to 1.7e-005
+Heightened Def Con from 1.7e-005 to 1.70006e-005
+Heightened Def Con from 1.8e-005 to 1.80008e-005
+Heightened Def Con from 1.9e-005 to 1.9e-005
+Heightened Def Con from 1.9e-005 to 1.90006e-005
+Heightened Def Con from 2e-005 to 2.00001e-005
+Heightened Def Con from 2.1e-005 to 2.1e-005
+Heightened Def Con from 2.1e-005 to 2.10006e-005
+Heightened Def Con from 2.2e-005 to 2.20001e-005
+Heightened Def Con from 2.3e-005 to 2.3e-005
+Heightened Def Con from 2.3e-005 to 2.30006e-005
+Heightened Def Con from 2.4e-005 to 2.40001e-005
+Heightened Def Con from 2.5e-005 to 2.5e-005
+Heightened Def Con from 2.5e-005 to 2.50006e-005
+Heightened Def Con from 2.6e-005 to 2.6e-005
+Heightened Def Con from 2.7e-005 to 2.7e-005
+Heightened Def Con from 2.7e-005 to 2.70006e-005
+Heightened Def Con from 2.8e-005 to 2.80001e-005
+Heightened Def Con from 2.9e-005 to 2.9e-005
+Heightened Def Con from 2.9e-005 to 2.90006e-005
+Heightened Def Con from 3e-005 to 3.00008e-005
+Heightened Def Con from 3.4e-005 to 3.4e-005
+Heightened Def Con from 3.4e-005 to 3.4e-005
+Heightened Def Con from 3.4e-005 to 3.40008e-005
+Heightened Def Con from 3.5e-005 to 3.50008e-005
+Heightened Def Con from 3.6e-005 to 3.60002e-005
+Heightened Def Con from 3.7e-005 to 3.70008e-005
+Heightened Def Con from 3.8e-005 to 3.8e-005
+Heightened Def Con from 3.8e-005 to 3.8e-005
+Heightened Def Con from 3.8e-005 to 3.8e-005
+Heightened Def Con from 3.8e-005 to 3.80008e-005
+Heightened Def Con from 3.9e-005 to 3.90001e-005
+Heightened Def Con from 4e-005 to 4.00008e-005
+Heightened Def Con from 4.1e-005 to 4.10008e-005
+Heightened Def Con from 4.2e-005 to 4.2e-005
+Heightened Def Con from 4.2e-005 to 4.2e-005
+Heightened Def Con from 4.2e-005 ++++to 4.2e-005
+Heightened Def Con from 4.2e-005 ++++++to 4.2e-005
+Heightened Def Con from 4.2e-005 +++to 4.2e-005
+Heightened Def Con from 4.2e-005 +++to 4.2e-005
+Heightened Def Con from 4.2e-005 to 4.2e-005
+Heightened Def Con from 4.2e-005 to 4.20008e-005
+Heightened Def Con from 4.3e-005 to 4.30008e-005
+Heightened Def Con from 4.4e-005 to 4.4e-005
+Heightened Def Con from 4.5e-005 to 4.5e-005
+Heightened Def Con from 4.7e-005 to 4.70008e-005
+Heightened Def Con from 4.9e-005 to 4.9e-005
+Heightened Def Con from 4.9e-005 to 4.9e-005
+Heightened Def Con from 4.9e-005 to 4.90006e-005
+Heightened Def Con from 5e-005 to 5e-005
+Heightened Def Con from 5e-005 to 5.00001e-005
+Heightened Def Con from 5.2e-005 to 5.20002e-005
+Heightened Def Con from 5.3e-005 to 5.3e-005
+Heightened Def Con from 5.3e-005 to 5.30006e-005
+Heightened Def Con from 5.4e-005 to 5.4e-005
+Heightened Def Con from 5.4e-005 to 5.4e-005
+Heightened Def Con from 5.4e-005 to 5.40009e-005
+Heightened Def Con from 5.6e-005 to 5.60007e-005
+Heightened Def Con from 5.7e-005 to 5.7e-005
+Heightened Def Con from 5.7e-005 to 5.70006e-005
+Heightened Def Con from 5.8e-005 to 5.8e-005
+Heightened Def Con from 5.8e-005 +to 5.8e-005
+Heightened Def Con from 5.8e-005 +++to 5.8e-005
+Heightened Def Con from 5.8e-005 to 5.8e-005
+Heightened Def Con from 5.8e-005 to 5.80009e-005
+Heightened Def Con from 6e-005 to 6.00009e-005
+Heightened Def Con from 6.6e-005 to 6.60008e-005
+Heightened Def Con from 6.7e-005 to 6.70001e-005
+Heightened Def Con from 6.8e-005 to 6.8e-005
+Heightened Def Con from 6.8e-005 to 6.80001e-005
+Heightened Def Con from 6.9e-005 to 6.90008e-005
+Heightened Def Con from 7e-005 to 7.00008e-005
+Heightened Def Con from 7.1e-005 to 7.10001e-005
+Heightened Def Con from 7.2e-005 to 7.20008e-005
+Heightened Def Con from 7.3e-005 to 7.30008e-005
+Heightened Def Con from 7.4e-005 to 7.40008e-005
+Heightened Def Con from 7.5e-005 to 7.50008e-005
+Heightened Def Con from 7.7e-005 to 7.70008e-005
+Heightened Def Con from 7.8e-005 to 7.80008e-005
+Heightened Def Con from 7.9e-005 to 7.90001e-005
+Heightened Def Con from 8.1e-005 to 8.1e-005
+Heightened Def Con from 8.1e-005 to 8.10006e-005
+Heightened Def Con from 8.2e-005 to 8.20009e-005
+Heightened Def Con from 8.3e-005 to 8.3e-005
+Heightened Def Con from 8.3e-005 to 8.30006e-005
+Heightened Def Con from 8.4e-005 to 8.4e-005
+Heightened Def Con from 8.4e-005 to 8.40021e-005
+Heightened Def Con from 8.5e-005 to 8.5e-005
+Heightened Def Con from 8.5e-005 to 8.5e-005
+Heightened Def Con from 8.5e-005 to 8.50006e-005
+Heightened Def Con from 8.6e-005 to 8.60009e-005
+Heightened Def Con from 8.8e-005 to 8.80001e-005
+Heightened Def Con from 8.9e-005 to 8.9e-005
+Heightened Def Con from 8.9e-005 to 8.90006e-005
+Heightened Def Con from 9e-005 to 9.00009e-005
+Heightened Def Con from 9.3e-005 to 9.3e-005
+Heightened Def Con from 9.3e-005 to 9.3e-005
+Heightened Def Con from 9.3e-005 to 9.30006e-005
+Heightened Def Con from 9.4e-005 to 9.40009e-005
+Heightened Def Con from 9.7e-005 to 9.70008e-005
+Heightened Def Con from 9.8e-005 to 9.8e-005
+Heightened Def Con from 9.8e-005 to 9.8e-005
+Heightened Def Con from 9.8e-005 to 9.80008e-005
+Heightened Def Con from 9.9e-005 to 9.90008e-005
+Heightened Def Con from 0.0001 to 0.0001
+Heightened Def Con from 0.0001 to 0.000100002
+Heightened Def Con from 0.000101 to 0.000101
+Heightened Def Con from 0.000103 to 0.000103001
+Heightened Def Con from 0.000104 to 0.000104001
+Heightened Def Con from 0.000105 to 0.000105
+Heightened Def Con from 0.000107 to 0.000107001
+Heightened Def Con from 0.000109 to 0.000109001
+Heightened Def Con from 0.000111 to 0.000111001
+Heightened Def Con from 0.000113 to 0.000113
+Heightened Def Con from 0.000113 to 0.000113
+Heightened Def Con from 0.000113 to 0.000113001
+Heightened Def Con from 0.000114 to 0.000114
+Heightened Def Con from 0.000114 +++to 0.000114
+Heightened Def Con from 0.000114 ++++to 0.000114
+Heightened Def Con from 0.000114 ++++++++to 0.000114
+Heightened Def Con from 0.000114 +++to 0.000114
+Heightened Def Con from 0.000114 to 0.000114
+Heightened Def Con from 0.000114 to 0.000114001
+Heightened Def Con from 0.000116 to 0.000116
+Heightened Def Con from 0.000116 to 0.000116005
+Heightened Def Con from 0.00012 to 0.000120001
+Heightened Def Con from 0.000129 to 0.000129001
+Heightened Def Con from 0.00013 to 0.000130001
+Heightened Def Con from 0.000131 to 0.000131
+Heightened Def Con from 0.000132 to 0.000132001
+Heightened Def Con from 0.000133 to 0.000133001
+Heightened Def Con from 0.000134 to 0.000134
+Heightened Def Con from 0.000135 to 0.000135001
+Heightened Def Con from 0.000137 to 0.000137001
+Heightened Def Con from 0.000138 to 0.000138001
+Heightened Def Con from 0.000139 to 0.000139
+Heightened Def Con from 0.00014 to 0.00014
+Heightened Def Con from 0.000141 to 0.000141001
+Heightened Def Con from 0.000142 to 0.000142
+Heightened Def Con from 0.000143 to 0.000143001
+Heightened Def Con from 0.000145 to 0.000145
+Heightened Def Con from 0.000145 to 0.000145001
+Heightened Def Con from 0.000146 to 0.000146001
+Heightened Def Con from 0.000147 to 0.000147
+Heightened Def Con from 0.000147 to 0.000147001
+Heightened Def Con from 0.000148 to 0.000148001
+Heightened Def Con from 0.000149 to 0.000149
+Heightened Def Con from 0.000149 to 0.000149001
+Heightened Def Con from 0.00015 to 0.00015
+Heightened Def Con from 0.000153 to 0.000153
+Heightened Def Con from 0.000153 to 0.000153001
+Heightened Def Con from 0.000154 to 0.000154001
+Heightened Def Con from 0.000155 to 0.000155
+Heightened Def Con from 0.000155 to 0.000155001
+Heightened Def Con from 0.000156 to 0.000156
+Heightened Def Con from 0.000157 to 0.000157
+Heightened Def Con from 0.000157 to 0.000157001
+Heightened Def Con from 0.000158 to 0.000158
+Heightened Def Con from 0.000161 to 0.000161001
+Heightened Def Con from 0.000162 to 0.000162
+Heightened Def Con from 0.000162 to 0.000162
+Heightened Def Con from 0.000162 to 0.000162001
+Heightened Def Con from 0.000163 to 0.000163001
+Heightened Def Con from 0.000164 to 0.000164001
+Heightened Def Con from 0.000165 to 0.000165001
+Heightened Def Con from 0.000167 to 0.000167001
+Heightened Def Con from 0.000169 to 0.000169001
+Heightened Def Con from 0.00017 to 0.00017
+Heightened Def Con from 0.00017 to 0.00017
+Heightened Def Con from 0.00017 to 0.000170001
+Heightened Def Con from 0.000171 to 0.000171001
+Heightened Def Con from 0.000172 to 0.000172001
+Heightened Def Con from 0.000173 to 0.000173001
+Heightened Def Con from 0.000175 to 0.000175001
+Heightened Def Con from 0.000177 to 0.000177
+Heightened Def Con from 0.000177 to 0.000177001
+Heightened Def Con from 0.000178 to 0.000178
+Heightened Def Con from 0.000178 ++++++++to 0.000178
+Heightened Def Con from 0.000178 +to 0.000178
+Heightened Def Con from 0.000178 +++++to 0.000178
+Heightened Def Con from 0.000178 ++to 0.000178
+Heightened Def Con from 0.000178 +to 0.000178
+Heightened Def Con from 0.000178 to 0.000178
+Heightened Def Con from 0.000178 to 0.000178001
+Heightened Def Con from 0.00018 to 0.000180001
+Heightened Def Con from 0.000185 to 0.000185
+Heightened Def Con from 0.000185 to 0.000185001
+Heightened Def Con from 0.000186 to 0.000186
+Heightened Def Con from 0.000186 to 0.000186
+Heightened Def Con from 0.000186 to 0.000186001
+Heightened Def Con from 0.000188 to 0.000188001
+Heightened Def Con from 0.000193 to 0.000193001
+Heightened Def Con from 0.000194 to 0.000194
+Heightened Def Con from 0.000195 to 0.000195001
+Heightened Def Con from 0.000197 to 0.000197001
+Heightened Def Con from 0.000198 to 0.000198001
+Heightened Def Con from 0.000199 to 0.000199001
+Heightened Def Con from 0.000201 to 0.000201001
+Heightened Def Con from 0.000202 to 0.000202
+Heightened Def Con from 0.000203 to 0.000203001
+Heightened Def Con from 0.000205 to 0.000205001
+Heightened Def Con from 0.000206 to 0.000206001
+Heightened Def Con from 0.000207 to 0.000207
+Heightened Def Con from 0.000209 to 0.000209
+Heightened Def Con from 0.000209 to 0.000209
+Heightened Def Con from 0.000209 to 0.000209001
+Heightened Def Con from 0.00021 to 0.000210001
+Heightened Def Con from 0.000213 to 0.000213
+Heightened Def Con from 0.000213 to 0.000213
+Heightened Def Con from 0.000213 to 0.000213001
+Heightened Def Con from 0.000214 to 0.000214001
+Heightened Def Con from 0.000217 to 0.000217
+Heightened Def Con from 0.000217 to 0.000217001
+Heightened Def Con from 0.000218 to 0.000218001
+Heightened Def Con from 0.000221 to 0.000221
+Heightened Def Con from 0.000221 to 0.000221001
+Heightened Def Con from 0.000222 to 0.000222
+Heightened Def Con from 0.000225 to 0.000225001
+Heightened Def Con from 0.000227 to 0.000227001
+Heightened Def Con from 0.000229 to 0.000229001
+Heightened Def Con from 0.000231 to 0.000231001
+Heightened Def Con from 0.000233 to 0.000233001
+Heightened Def Con from 0.000235 to 0.000235001
+Heightened Def Con from 0.000237 to 0.000237001
+Heightened Def Con from 0.000239 to 0.000239001
 
-Date: Thu Jan 28 19:28:25 2021
-Total elapsed time: 5.430 seconds.
+Date: Thu Jan 28 20:01:52 2021
+Total elapsed time: 16.761 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 63923
-traniter = 63879
-tranpoints = 12962
-accept = 8519
-rejected = 4623
-matrix size = 151
-fillins = 134
+totiter = 313942
+traniter = 313545
+tranpoints = 90062
+accept = 66003
+rejected = 24354
+matrix size = 159
+fillins = 106
 solver = Normal
-Thread vector: 108.2/34.5[12] 22.3/9.4[12] 4.8/2.7[11] 0.5/0.8[1]  2592/500
-Matrix Compiler1: 25.78 KB object code size  5.2/2.4/[1.7]
-Matrix Compiler2: 19.38 KB object code size  2.4/2.4/[1.0]
+Thread vector: 75.3/35.4[12] 30.0/6.7[12] 14.8/5.1[12] 0.7/3.0[1]  2592/500
+Matrix Compiler1: 25.84 KB object code size  6.1/2.4/[1.9]
+Matrix Compiler2: 21.65 KB object code size  2.9/3.6/[1.2]
 
