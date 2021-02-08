@@ -13,34 +13,25 @@ XX4 Vdd cout N002 N003 s_xor
 .ends s_full_adder
 
 .subckt s_4bit_mult Vdd A[0] A[1] A[2] A[3] B[0] B[1] B[2] B[3] s[0] s[1] s[2] s[3] s[4] s[5] s[6] s[7]
-XX1 Vdd B[0] A[3] N004 s_and
-XX2 Vdd B[0] A[2] N007 s_and
-XX3 Vdd B[0] A[1] N010 s_and
-XX4 Vdd B[0] A[0] s[0] s_and
-XX5 Vdd B[1] A[0] N009 s_and
-XX6 Vdd B[1] A[1] N006 s_and
-XX7 Vdd B[1] A[2] N003 s_and
-XX8 Vdd B[1] A[3] N001 s_and
-XX9 Vdd N009 N010 0 N008 s[1] s_full_adder
-XX10 Vdd N006 N007 N008 N005 N014 s_full_adder
-XX11 Vdd N003 N004 N005 N002 N013 s_full_adder
-XX12 Vdd N001 0 N002 N011 N012 s_full_adder
-XX13 Vdd B[2] A[0] N021 s_and
-XX14 Vdd B[2] A[1] N019 s_and
-XX15 Vdd B[2] A[2] N017 s_and
-XX16 Vdd B[2] A[3] N015 s_and
-XX17 Vdd N021 N014 0 N020 s[2] s_full_adder
-XX18 Vdd N019 N013 N020 N018 N026 s_full_adder
-XX19 Vdd N017 N012 N018 N016 N025 s_full_adder
-XX20 Vdd N015 N011 N016 N023 N024 s_full_adder
-XX21 Vdd B[3] A[0] N033 s_and
-XX22 Vdd B[3] A[1] N031 s_and
-XX23 Vdd B[3] N022 N029 s_and
-XX24 Vdd B[3] A[3] N027 s_and
-XX25 Vdd N031 N025 N032 N030 s[4] s_full_adder
-XX26 Vdd N033 N026 0 N032 s[3] s_full_adder
-XX27 Vdd N029 N024 N030 N028 s[5] s_full_adder
-XX28 Vdd N027 N023 N028 s[7] s[6] s_full_adder
+XX1 Vdd A[3] B[0] B1[2] s_and
+XX2 Vdd A[2] B[0] B1[1] s_and
+XX3 Vdd A[1] B[0] B1[0] s_and
+XX4 Vdd A[0] B[0] s[0] s_and
+XX5 N001 A[0] B[1] A1[0] s_and
+XX6 N001 A[1] B[1] A1[1] s_and
+XX7 N001 A[2] B[1] A1[2] s_and
+XX8 N001 A[3] B[1] A1[3] s_and
+XX9 Vdd B1[0] B1[1] B1[2] 0 A1[0] A1[1] A1[2] A1[3] s[1] B2[1] B2[2] B2[3] B2[4] s_4bit_adder
+XX10 Vdd B2[1] B2[2] B2[3] B2[4] A2[0] A2[1] A2[2] A2[3] s[2] B3[1] B3[2] B3[3] B3[4] s_4bit_adder
+XX11 Vdd A[0] B[2] A2[0] s_and
+XX12 Vdd A[1] B[2] A2[1] s_and
+XX13 Vdd A[2] B[2] A2[2] s_and
+XX14 Vdd A[3] B[2] A2[3] s_and
+XX15 Vdd A[0] B[3] A3[0] s_and
+XX16 Vdd A[1] B[3] A3[1] s_and
+XX17 Vdd A[2] B[3] A3[2] s_and
+XX18 Vdd A[3] B[3] A3[3] s_and
+XX19 Vdd B3[1] B3[2] B3[3] B3[4] A3[0] A3[1] A3[2] A3[3] s[3] s[4] s[5] s[6] s[7] s_4bit_adder
 .ends s_4bit_mult
 
 .subckt s_xor Vdd Vout A B
@@ -63,6 +54,13 @@ M3 N001 B Vdd Vdd CMOSP_0.5
 M4 N001 A Vdd Vdd CMOSP_0.5
 XX1 N001 Vout Vdd s_inv
 .ends s_and
+
+.subckt s_4bit_adder Vdd B[0] B[1] B[2] B[3] A[0] A[1] A[2] A[3] s[0] s[1] s[2] s[3] s[4]
+XX2 Vdd A[1] B[1] N001 N002 s[1] s_full_adder
+XX3 Vdd A[2] B[2] N002 N003 s[2] s_full_adder
+XX4 Vdd A[3] B[3] N003 s[4] s[3] s_full_adder
+XX1 Vdd A[0] B[0] 0 N001 s[0] s_full_adder
+.ends s_4bit_adder
 
 .subckt s_inv vin vout vdd
 M1 vout vin vdd vdd PMOS
