@@ -1,0 +1,44 @@
+* Z:\home\sdanthinne\Documents\307\gateTransistorModels\mux_test.asc
+XX1 N001 Vsel Va Vb sout s_2x1_mux
+V1 N001 0 5
+Vb Vb 0 PULSE(0 5 0 .1p .1p 1u 2u 8)
+Vsel Vsel 0 PULSE(0 5 0 .1p .1p 2u 4u 4)
+Va Va 0 PULSE(0 5 0 .1p .1p 4u 8u 2)
+
+* block symbol definitions
+.subckt s_2x1_mux Vdd sel A B s
+XX1 Vdd sel B N001 s_and
+XX2 Vdd A N003 N002 s_and
+XX3 Vdd s N001 N002 s_or
+XX4 sel N003 Vdd s_inv
+.ends s_2x1_mux
+
+.subckt s_and Vdd A B Vout
+M1 N001 B N002 N002 CMOSN_0.5
+M2 N002 A 0 0 CMOSN_0.5
+M3 N001 B Vdd Vdd CMOSP_0.5
+M4 N001 A Vdd Vdd CMOSP_0.5
+XX1 N001 Vout Vdd s_inv
+.ends s_and
+
+.subckt s_or Vdd Vout A B
+M1 P001 A Vdd Vdd CMOSP_0.5
+M2 N001 B P001 P001 CMOSP_0.5
+M3 N001 A 0 0 CMOSN_0.5
+M4 N001 B 0 0 CMOSN_0.5
+XX1 N001 Vout Vdd s_inv
+.lib DetailedModel.mod
+.ends s_or
+
+.subckt s_inv vin vout vdd
+M1 vout vin vdd vdd PMOS
+M2 vout vin 0 0 NMOS
+.ends s_inv
+
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\sdanthinne\My Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 16u
+.lib Z:\home\sdanthinne\Documents\307\gateTransistorModels\DetailedModel.mod
+.backanno
+.end
