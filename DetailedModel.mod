@@ -18,33 +18,33 @@
 
 
 *	The MOSFET spice model includes the parameter PHI, which is the "surface
-*	potential" for the device.  It is equivalent to the 2*phi_F that we 
+*	potential" for the device.  It is equivalent to the 2*phi_F that we
 *	used in class when discussing the body effect.  The Mosfet threshold
 *	is determined for spice level-1 models by
-*	
+*
 *	V_thresh = VTO + GAMMA*( sqrt(PHI+V_sb) - sqrt(PHI) )
-*		
-.model CD4007 NMOS 
+*
+.model CD4007 NMOS
 + Level=1    Gamma= 2.7   Xj=0
 + Tox=1200n  Phi=.6     Rs=0      Kp=111u  Vto=2.0    Lambda=0.01
 + Rd=0       Cbd=2.0p   Cbs=2.0p  Pb=.8    Cgso=0.1p
 + Cgdo=0.1p  Is=16.64p  N=1	  L=10E-6  W=30E-6
 *   L & W added 2/22/07  -DMH
 
-.model CD4007 PMOS 
+.model CD4007 PMOS
 + Level=1    Gamma= 2.7   Xj=0
 + Tox=1200n  Phi=.6     Rs=0      Kp=55u  Vto=-1.5   Lambda=0.04
 + Rd=0       Cbd=4.0p   Cbs=4.0p  Pb=.8   Cgso=0.2p
 + Cgdo=0.2p  Is=16.64p  N=1       L=10E-6 W=60E-6
 *  L & W added 2/22/07  -DMH
 
-*	ALD1106 and ALD1107 model parameters are based upon data provided 
-* 	on their respective spec sheets.  KP(W/L) is estimated... the actual 
+*	ALD1106 and ALD1107 model parameters are based upon data provided
+* 	on their respective spec sheets.  KP(W/L) is estimated... the actual
 * 	value of L, W, KP are not known.
 *           ---  Updated 2/21/2011 to reflect student measurements on labs 1 & 2
 * 		(LAMBDA changed from .004 to .04 for ALD1107)
 * 	    ---  Updated 2/21/2012 to reflect student measurements on HW 1
-* 
+*
 .MODEL ALD1106 NMOS (LEVEL=1 CBD=0.5p CBS=0.5p CGDO=0.1p CGSO=0.1p GAMMA=.85
 + KP=225u L=10E-6 LAMBDA=0.029 PHI=.9 VTO=0.7 W=20E-6)
 
@@ -58,7 +58,7 @@
 + IS=16.64p KP=55u L=10E-6 LAMBDA=0.04 PB=.8 PHI=.6 TOX=1200n VTO=-1.0 W=60E-6)
 
 .MODEL CD4007UBE NMOS (LEVEL=1 CBD=2.0p CBS=2.0p CGDO=0.1p CGSO=0.1p GAMMA=1.8
-+ IS=16.64p KP=150u L=10E-6 LAMBDA=0.01 PB=.8 PHI=.3 TOX=1200n VTO=0.95 W=33E-6) 
++ IS=16.64p KP=150u L=10E-6 LAMBDA=0.01 PB=.8 PHI=.3 TOX=1200n VTO=0.95 W=33E-6)
 
 
 * Previous ECE342/3 model from unknown source replaced Fall '08
@@ -68,9 +68,9 @@
 * + rc=0.6 cje=23p vje=0.85 mje=1.25 tf=0.5n cjc=19p vjc=0.5 mjc=0.2 tr=34n
 * + xtb=1.5)
 
-.MODEL 2N2907 PNP (BF=217.797 BR=2.98475 CJC=36.6437p CJE=67.0252p IKF=1.12749 
-+ IKR=1.00038 IS=10.0118f ISC=9.55131p ISE=1.01042p ITF=10m MJC=558.066m 
-+ MJE=595.493m NE=1.65086 NF=954.211m RC=405.548m RE=1.56766 TF=1n TR=29.1239n 
+.MODEL 2N2907 PNP (BF=217.797 BR=2.98475 CJC=36.6437p CJE=67.0252p IKF=1.12749
++ IKR=1.00038 IS=10.0118f ISC=9.55131p ISE=1.01042p ITF=10m MJC=558.066m
++ MJE=595.493m NE=1.65086 NF=954.211m RC=405.548m RE=1.56766 TF=1n TR=29.1239n
 + VAF=100 VJC=700m VJE=700m VTF=10 XTF=500m)
 
 * 2n3906 model created using Parts version 6.0 on 11/19/01 at 16:43
