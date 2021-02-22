@@ -30,17 +30,17 @@ XX14 Vdd B[2] A[1] N019 s_and
 XX15 Vdd B[2] A[2] N017 s_and
 XX16 Vdd B[2] A[3] N015 s_and
 XX17 Vdd N021 N014 0 N020 s[2] s_full_adder
-XX18 Vdd N019 N013 N020 N018 N026 s_full_adder
-XX19 Vdd N017 N012 N018 N016 N025 s_full_adder
-XX20 Vdd N015 N011 N016 N023 N024 s_full_adder
-XX21 Vdd B[3] A[0] N033 s_and
-XX22 Vdd B[3] A[1] N031 s_and
-XX23 Vdd B[3] N022 N029 s_and
-XX24 Vdd B[3] A[3] N027 s_and
-XX25 Vdd N031 N025 N032 N030 s[4] s_full_adder
-XX26 Vdd N033 N026 0 N032 s[3] s_full_adder
-XX27 Vdd N029 N024 N030 N028 s[5] s_full_adder
-XX28 Vdd N027 N023 N028 s[7] s[6] s_full_adder
+XX18 Vdd N019 N013 N020 N018 N025 s_full_adder
+XX19 Vdd N017 N012 N018 N016 N024 s_full_adder
+XX20 Vdd N015 N011 N016 N022 N023 s_full_adder
+XX21 Vdd B[3] A[0] N032 s_and
+XX22 Vdd B[3] A[1] N030 s_and
+XX23 Vdd B[3] A[2] N028 s_and
+XX24 Vdd B[3] A[3] N026 s_and
+XX25 Vdd N030 N024 N031 N029 s[4] s_full_adder
+XX26 Vdd N032 N025 0 N031 s[3] s_full_adder
+XX27 Vdd N028 N023 N029 N027 s[5] s_full_adder
+XX28 Vdd N026 N022 N027 s[7] s[6] s_full_adder
 .ends s_4bit_mult
 
 .subckt s_xor Vdd Vout A B
