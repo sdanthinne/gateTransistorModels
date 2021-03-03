@@ -1,0 +1,75 @@
+Circuit: * Z:\home\sdanthinne\Documents\307\gateTransistorModels\Draft9.asc
+
+Warning: Multiple definitions of model "cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x5:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x5:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x4:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x4:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x3:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x3:cd4007" Type: Mos1
+Warning: Multiple definitions of model "x1:x2:cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "x1:x2:cd4007" Type: Mos1
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Mar 03 07:48:52 2021
+Total elapsed time: 0.341 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 12253
+traniter = 12209
+tranpoints = 4750
+accept = 3741
+rejected = 1009
+matrix size = 24
+fillins = 8
+solver = Normal
+Matrix Compiler1: 2.49 KB object code size  0.4/0.2/[0.2]
+Matrix Compiler2: off  [0.2]/0.3/0.2
+

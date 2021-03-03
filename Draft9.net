@@ -1,0 +1,57 @@
+* Z:\home\sdanthinne\Documents\307\gateTransistorModels\Draft9.asc
+XX1 P001 N001 N002 Q Qbar s_d_flip_flop
+V1 P001 0 PULSE(0 5 1u 1n 1n 2u 4u)
+V2 N001 0 5
+V3 N002 0 PULSE(0 5 0 1n 1n 8u 16u)
+
+* block symbol definitions
+.subckt s_d_flip_flop clk Vdd D Q Qbar
+XX1 D N006 Vdd s_inv
+XX2 Vdd N001 N003 N002 s_nand
+XX3 Vdd N003 N005 N004 s_nand
+XX4 Vdd N002 Qbar Q s_nand
+XX5 Vdd Q N004 Qbar s_nand
+XX8 N007 clk Vdd s_inv_slow
+XX9 Vdd N007 N003 s_buf
+XX6 Vdd D clk N001 s_and
+XX7 Vdd clk N006 N005 s_and
+.ends s_d_flip_flop
+
+.subckt s_inv vin vout vdd
+M1 vout vin vdd vdd CMOSP_0.5
+M2 vout vin 0 0 CMOSN_0.5
+.ends s_inv
+
+.subckt s_nand Vdd A B Vout
+M1 Vout B N001 N001 CMOSN_0.5
+M2 N001 A 0 0 CMOSN_0.5
+M3 Vout B Vdd Vdd CMOSP_0.5
+M4 Vout A Vdd Vdd CMOSP_0.5
+.lib DetailedModel.mod
+.ends s_nand
+
+.subckt s_inv_slow Vout Vin Vdd
+M1 Vout Vin Vdd Vdd CMOSP_0.5 L=5m
+M2 Vout Vin 0 0 CMOSN_0.5 L=2m
+.ends s_inv_slow
+
+.subckt s_buf Vdd Vin Vout
+XX1 Vin P001 Vdd s_inv
+XX2 P001 Vout Vdd s_inv
+.ends s_buf
+
+.subckt s_and Vdd A B Vout
+M1 N001 B N002 N002 CMOSN_0.5
+M2 N002 A 0 0 CMOSN_0.5
+M3 N001 B Vdd Vdd CMOSP_0.5
+M4 N001 A Vdd Vdd CMOSP_0.5
+XX1 N001 Vout Vdd s_inv
+.ends s_and
+
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\sdanthinne\My Documents\LTspiceXVII\lib\cmp\standard.mos
+.lib Z:\home\sdanthinne\Documents\307\gateTransistorModels\DetailedModel.mod
+.tran 30u
+.backanno
+.end
