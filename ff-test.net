@@ -31,8 +31,8 @@ M4 Vout A Vdd Vdd CMOSP_0.5
 .ends s_nand
 
 .subckt s_inv_slow Vout Vin Vdd
-M1 Vout Vin Vdd Vdd CMOSP_0.5 L=5m
-M2 Vout Vin 0 0 CMOSN_0.5 L=2m
+M1 Vout Vin Vdd Vdd CMOSP_0.5 L=30u
+M2 Vout Vin 0 0 CMOSN_0.5 L=30u
 .ends s_inv_slow
 
 .subckt s_buf Vdd Vin Vout
