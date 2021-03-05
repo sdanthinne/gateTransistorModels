@@ -1,5 +1,5 @@
 * Z:\home\sdanthinne\Documents\307\gateTransistorModels\pc_test.asc
-V1 P001 0 PULSE(0 5 1n 1n 1n 1m 2m)
+V1 P001 0 PULSE(0 5 1n 1n 1n 1u 2u)
 V2 N001 0 5
 XX1 P001 p[0] p[1] p[2] N001 n[0] n[1] n[2] s_pc
 
@@ -17,9 +17,9 @@ XX15 Vdd P[2] N[0] N008 s_and
 XX8 P[2] N001 Vdd s_inv
 XX9 P[1] N003 Vdd s_inv
 XX10 P[0] N[0] Vdd s_inv
-A1 N[2] 0 clk 0 0 0 P[2] 0 DFLOP
-A2 N[1] 0 clk 0 0 0 P[1] 0 DFLOP
-A3 N[0] 0 clk 0 0 0 P[0] 0 DFLOP
+XX1 clk Vdd N[2] P[2] NC_01 s_d_flip_flop
+XX2 clk Vdd N[1] P[1] NC_02 s_d_flip_flop
+XX3 clk Vdd N[0] P[0] NC_03 s_d_flip_flop
 .ic V(P[0])=0 V(P[1])=0 V(P[2])=0
 .ends s_pc
 
@@ -45,10 +45,85 @@ M1 vout vin vdd vdd CMOSP_0.5
 M2 vout vin 0 0 CMOSN_0.5
 .ends s_inv
 
+.subckt s_d_flip_flop clk Vdd D Q Qbar
+XX1 D N008 Vdd s_inv
+XX2 Vdd N001 N005 N002 s_nand
+XX3 Vdd N005 N007 N006 s_nand
+XX4 Vdd N002 N004 N003 s_nand
+XX5 Vdd N003 N006 N004 s_nand
+XX8 N009 clk Vdd s_inv_slow
+XX9 Vdd N009 N005 s_buf
+XX6 Vdd D clk N001 s_and
+XX7 Vdd clk N008 N007 s_and
+XX10 Q N003 Vdd s_current_boost
+XX11 Qbar N004 Vdd s_current_boost
+.ends s_d_flip_flop
+
+.subckt s_nand Vdd A B Vout
+M1 Vout B N001 N001 CMOSN_0.5
+M2 N001 A 0 0 CMOSN_0.5
+M3 Vout B Vdd Vdd CMOSP_0.5
+M4 Vout A Vdd Vdd CMOSP_0.5
+.lib DetailedModel.mod
+.ends s_nand
+
+.subckt s_inv_slow Vout Vin Vdd
+M1 Vout Vin Vdd Vdd CMOSP_0.5 L=30u
+M2 Vout Vin 0 0 CMOSN_0.5 L=30u
+.ends s_inv_slow
+
+.subckt s_buf Vdd Vin Vout
+XX1 Vin P001 Vdd s_inv
+XX2 P001 Vout Vdd s_inv
+.ends s_buf
+
+.subckt s_current_boost Vout Vin Vdd
+XX1 N003 N002 Vdd s_inv
+XX2 N003 N002 Vdd s_inv
+XX3 N003 N002 Vdd s_inv
+XX4 N002 N001 Vdd s_inv
+XX5 N002 N001 Vdd s_inv
+XX6 N002 N001 Vdd s_inv
+XX7 N002 N001 Vdd s_inv
+XX8 N002 N001 Vdd s_inv
+XX9 N002 N001 Vdd s_inv
+XX10 N002 N001 Vdd s_inv
+XX11 N002 N001 Vdd s_inv
+XX12 N002 N001 Vdd s_inv
+XX13 Vin N003 Vdd s_inv
+XX14 N001 Vout Vdd s_inv
+XX15 N001 Vout Vdd s_inv
+XX16 N001 Vout Vdd s_inv
+XX17 N001 Vout Vdd s_inv
+XX18 N001 Vout Vdd s_inv
+XX19 N001 Vout Vdd s_inv
+XX20 N001 Vout Vdd s_inv
+XX21 N001 Vout Vdd s_inv
+XX22 N001 Vout Vdd s_inv
+XX23 N001 Vout Vdd s_inv
+XX24 N001 Vout Vdd s_inv
+XX25 N001 Vout Vdd s_inv
+XX26 N001 Vout Vdd s_inv
+XX27 N001 Vout Vdd s_inv
+XX28 N001 Vout Vdd s_inv
+XX29 N001 Vout Vdd s_inv
+XX30 N001 Vout Vdd s_inv
+XX31 N001 Vout Vdd s_inv
+XX32 N001 Vout Vdd s_inv
+XX33 N001 Vout Vdd s_inv
+XX34 N001 Vout Vdd s_inv
+XX35 N001 Vout Vdd s_inv
+XX36 N001 Vout Vdd s_inv
+XX37 N001 Vout Vdd s_inv
+XX38 N001 Vout Vdd s_inv
+XX39 N001 Vout Vdd s_inv
+XX40 N001 Vout Vdd s_inv
+.ends s_current_boost
+
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\users\sdanthinne\My Documents\LTspiceXVII\lib\cmp\standard.mos
-.tran 20m
+.tran 20u
 .lib Z:\home\sdanthinne\Documents\307\gateTransistorModels\DetailedModel.mod
 .backanno
 .end
