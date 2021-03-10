@@ -11,6 +11,7 @@ LINE Normal -48 48 -64 48
 LINE Normal 64 0 96 0
 LINE Normal 0 -57 0 -80
 LINE Normal 0 57 0 80
+WINDOW 0 38 -73 Left 0
 PIN -64 -48 RIGHT 8
 PINATTR PinName R0[0:7]
 PINATTR SpiceOrder 1
