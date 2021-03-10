@@ -1,0 +1,30 @@
+* Z:\home\sdanthinne\Documents\307\gateTransistorModels\Draft8.asc
+XX1 N001 Vout N001 0 N001 s_3_and
+V1 N001 0 5
+
+* block symbol definitions
+.subckt s_3_and Vdd Vout A B C
+XX1 Vdd A B P001 s_and
+XX2 Vdd P001 C Vout s_and
+.ends s_3_and
+
+.subckt s_and Vdd A B Vout
+M1 N001 B N002 N002 CMOSN_0.5
+M2 N002 A 0 0 CMOSN_0.5
+M3 N001 B Vdd Vdd CMOSP_0.5
+M4 N001 A Vdd Vdd CMOSP_0.5
+XX1 N001 Vout Vdd s_inv
+.ends s_and
+
+.subckt s_inv vin vout vdd
+M1 vout vin vdd vdd CMOSP_0.5
+M2 vout vin 0 0 CMOSN_0.5
+.ends s_inv
+
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\sdanthinne\My Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 20u
+.lib Z:\home\sdanthinne\Documents\307\gateTransistorModels\DetailedModel.mod
+.backanno
+.end
