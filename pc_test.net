@@ -1,9 +1,9 @@
 * Z:\home\sdanthinne\Documents\307\gateTransistorModels\pc_test.asc
 V1 P001 0 PULSE(0 5 1n 1n 1n 1m 2m)
 V2 N001 0 5
-XX1 P001 P[0] P[1] P[2] N001 s_pc
-XX2 N001 r[7] r[6] r[5] r[4] r[3] r[2] r[1] r[0] B[8] B[7] B[6] B[5] B[4] B[3] B[2] B[1] B[0] instructionmemoryfinal8bit
-XX3 P[0] P[1] P[2] r[7] r[6] r[5] r[4] r[3] r[2] r[1] r[0] N001 s_rom_decoder
+XX1 P001 p[0] p[1] p[2] N001 s_pc
+XX2 p[0] p[1] p[2] o[7] o[6] o[5] o[4] o[3] o[2] o[1] o[0] N001 s_rom_decoder
+XX3 N001 o[7] o[6] o[5] o[4] o[3] o[2] o[1] o[0] ROM[8] ROM[7] ROM[6] ROM[5] ROM[4] ROM[3] ROM[2] ROM[1] ROM[0] instructionmemoryfinal8bit
 
 * block symbol definitions
 .subckt s_pc clk P[0] P[1] P[2] Vdd
@@ -24,6 +24,20 @@ XX17 N003 P[1] Vdd s_inv_slow
 XX18 D[0] P[0] Vdd s_inv_slow
 .ic V(N[0])=0 V(N[1])=0 V(N[2])=0
 .ends s_pc
+
+.subckt s_rom_decoder PC_IN[0] PC_IN[1] PC_IN[2] rom_out[7] rom_out[6] rom_out[5] rom_out[4] rom_out[3] rom_out[2] rom_out[1] rom_out[0] Vdd
+XX1 PC_IN[0] PC_IN[0]bar Vdd s_inv
+XX2 PC_IN[1] PC_IN[1]bar Vdd s_inv
+XX3 PC_IN[2] PC_IN[2]bar Vdd s_inv
+XX4 Vdd rom_out[7] PC_IN[0] PC_IN[2] PC_IN[1] s_3_and
+XX5 Vdd rom_out[6] PC_IN[0]bar PC_IN[2] PC_IN[1] s_3_and
+XX6 Vdd rom_out[5] PC_IN[0] PC_IN[2] PC_IN[1]bar s_3_and
+XX7 Vdd rom_out[4] PC_IN[0]bar PC_IN[2] PC_IN[1]bar s_3_and
+XX8 Vdd rom_out[3] PC_IN[0] PC_IN[2]bar PC_IN[1] s_3_and
+XX9 Vdd rom_out[2] PC_IN[0]bar PC_IN[2]bar PC_IN[1] s_3_and
+XX10 Vdd rom_out[1] PC_IN[0] PC_IN[2]bar PC_IN[1]bar s_3_and
+XX11 Vdd rom_out[0] PC_IN[0]bar PC_IN[2]bar PC_IN[1]bar s_3_and
+.ends s_rom_decoder
 
 .subckt instructionmemoryfinal8bit VDD WL[7] WL[6] WL[5] WL[4] WL[3] WL[2] WL[1] WL[0] BL[8] BL[7] BL[6] BL[5] BL[4] BL[3] BL[2] BL[1] BL[0]
 R3 VDD BL[8] 40K
@@ -66,20 +80,6 @@ M23 BL[3] WL[3] 0 0 ROMN W=10u L=0.5u
 +MJ=0.5027 CJSW=1.6457E-10  MJSW=0.217168 RSH=29.8)
 .ic V(BL8)=5 V(BL7)=0 V(BL6)=0 V(BL5)=5 V(BL4)=5 V(BL3)=5 V(BL2)=5 V(BL1)=0 V(BL0)=0
 .ends instructionmemoryfinal8bit
-
-.subckt s_rom_decoder PC_IN[0] PC_IN[1] PC_IN[2] rom_out[7] rom_out[6] rom_out[5] rom_out[4] rom_out[3] rom_out[2] rom_out[1] rom_out[0] Vdd
-XX1 PC_IN[0] PC_IN[0]bar Vdd s_inv
-XX2 PC_IN[1] PC_IN[1]bar Vdd s_inv
-XX3 PC_IN[2] PC_IN[2]bar Vdd s_inv
-XX4 Vdd rom_out[7] PC_IN[0] PC_IN[2] PC_IN[1] s_3_and
-XX5 Vdd rom_out[6] PC_IN[0]bar PC_IN[2] PC_IN[1] s_3_and
-XX6 Vdd rom_out[5] PC_IN[0] PC_IN[2] PC_IN[1]bar s_3_and
-XX7 Vdd rom_out[4] PC_IN[0]bar PC_IN[2] PC_IN[1]bar s_3_and
-XX8 Vdd rom_out[3] PC_IN[0] PC_IN[2]bar PC_IN[1] s_3_and
-XX9 Vdd rom_out[2] PC_IN[0]bar PC_IN[2]bar PC_IN[1] s_3_and
-XX10 Vdd rom_out[1] PC_IN[0] PC_IN[2]bar PC_IN[1]bar s_3_and
-XX11 Vdd rom_out[0] PC_IN[0]bar PC_IN[2]bar PC_IN[1]bar s_3_and
-.ends s_rom_decoder
 
 .subckt s_and Vdd A B Vout
 M1 N001 B N002 N002 CMOSN_0.5
