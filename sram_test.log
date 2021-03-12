@@ -1,0 +1,44 @@
+Circuit: * Z:\home\sdanthinne\Documents\307\computer\gateTransistorModels\sram_test.asc
+
+Warning: Multiple definitions of model "cd4007ube" Type: Mos1
+Warning: Multiple definitions of model "cd4007" Type: Mos1
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+WARNING: Node NC_02 is floating.
+
+WARNING: Less than two connections to node READ_OUT.  This node is used by M:X1:2.
+WARNING: Less than two connections to node NC_01.  This node is used by R1.
+WARNING: Less than two connections to node NC_02.  This node is used by R1.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Mar 12 11:09:37 2021
+Total elapsed time: 0.111 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 5205
+traniter = 5197
+tranpoints = 2081
+accept = 1804
+rejected = 277
+matrix size = 13
+fillins = 0
+solver = Normal
+Matrix Compiler1: 406 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 931 bytes object code size  0.1/0.1/[0.1]
+
