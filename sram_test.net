@@ -1,4 +1,4 @@
-* Z:\home\sdanthinne\Documents\307\computer\gateTransistorModels\sram_test.asc
+* Z:\home\sdanthinne\Documents\307\gateTransistorModels\sram_test.asc
 XX1 N001 wl rl bitlinewrite read_out s_sram_cell
 V1 N001 0 5
 R1 NC_01 NC_02 100k
@@ -8,19 +8,19 @@ V4 rl 0 PULSE(0 5 0 10n 10n 2u 4u)
 
 * block symbol definitions
 .subckt s_sram_cell Vdd WL RL BLw BLr
-M1 mem1 WL BLw 0 CMOSN_0.5 W=25u
+M1 mem1 WL BLw 0 CMOSN_0.5 W=100u L=10u
 M2 BLr RL mem2 0 CMOSN_0.5
-M3 mem1 mem2 0 0 CMOSN_0.5 W=5u L=10u
-M4 mem1 mem2 Vdd Vdd CMOSP_0.5
+M3 mem1 mem2 0 0 CMOSN_0.5 W=5u L=5u
+M4 mem1 mem2 Vdd Vdd CMOSP_0.5 W=5u L=5u
 M5 mem2 mem1 0 0 CMOSN_0.5 W=20u
 M6 mem2 mem1 Vdd Vdd CMOSP_0.5 W=20u
-.ic V(mem1)=2.5V V(mem2)=2.5V
+.ic V(mem1)=0V V(mem2)=0V
 .ends s_sram_cell
 
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\users\sdanthinne\My Documents\LTspiceXVII\lib\cmp\standard.mos
 .tran 32u
-.lib Z:\home\sdanthinne\Documents\307\computer\gateTransistorModels\DetailedModel.mod
+.lib DetailedModel.mod
 .backanno
 .end
